@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes em JS</title>
+    <link rel="stylesheet" href="./mvp.css">
+</head>
+<body>
+    <article>
+        <div>
+            <h4>classe Carro</h4>
+            <p><small>Dados:</small><br><span id="infocarro"></span></p>
+            <button id="addCarro">Adicionar Carro</button>
+            <button id="turnOnCarro">Ligar Carro</button>
+            <button id="turnOffCarro">Desligar Carro</button>
+        </div>
+    </article>
+    <article>
+        <div>   
+            <h4>classe Calculadora</h4>
+            <div>
+                <label for="num1">Valor 1</label>
+                <input type="number" id="num1">
+
+                <label for="funcao"></label>
+                <select id="funcao">
+                    <option value="1">Somar</option>
+                    <option value="2">Subtrair</option>
+                    <option value="3">Multiplicar</option>
+                    <option value="4">Dividir</option>
+                </select>
+
+                <label for="num2">Valor 2</label>
+                <input type="number" id="num2">
+
+                <Button id="calc"><strong>=</strong></Button>
+            </div>
+            <p><small>Resultado:</small><br><span id="result"></span></p>
+        </div>
+    </article>
+    <script src="./classes/Carro.js"></script>
+    <script src="./classes/Calc.js"></script>
+</body>
+</html>

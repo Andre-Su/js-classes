@@ -12,4 +12,12 @@ class User {
     }
 }
 
-export{User};
+var joao = new User;
+
+joao.nome = "João Ferreira";
+joao.email = "joa0fr@email.com";
+joao.nascimento = "1999-05-22";
+joao.role = "user";
+joao.ativo = "";
+
+joao.exibirInfos();
